@@ -70,6 +70,7 @@ public class Adherent extends Utilisateur {
 		
 		return nbRetard;
 	}
+	
 	@Override
 	public boolean isConditionsPretAcceptees(){
 		return ((getNbRetards() == 0 && getEmpruntEnCours().size() < nbMaxPrets)? 
