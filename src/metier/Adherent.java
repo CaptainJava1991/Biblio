@@ -3,7 +3,7 @@ package metier;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
-//Bonjour d
+
 public class Adherent extends Utilisateur {
 	private String telephone;
 	private static int nbMaxPrets = 3;
